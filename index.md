@@ -1,37 +1,240 @@
-## Welcome to GitHub Pages
+###项目全流程实施手册
 
-You can use the [editor on GitHub](https://github.com/duskdawn/jerry-s-repositories/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+---
+####1. 项目计划制定
+    
+ 制作工具：**omniPlan**、**project**
+ 更新周期：实时（具体根据项目推进情况实时调整）
+ 产出物参考如下：![enter image description here](http://mondoradt.b0.upaiyun.com/jerry/%E4%BA%91%E7%90%83APP%E4%B8%80%E6%9C%9F%E6%97%B6%E9%97%B4%E8%A7%84%E5%88%921221%E6%9B%B4%E6%96%B0.jpeg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---    	
+####2. 前置准备工作
 
-### Markdown
+1. Tower初始化   
+   -  新建Tower项目（jerry完成）
+	- 相关文件夹及在线文档初始化（项目经理完成）
+		- 项目经理
+			- 项目管理（管理项目计划等文件）--文件夹
+			- 项目周报（[模板地址](https://tower.im/projects/5a7ff5e37e6c4afd98249ca64cba307b/docs/674a2f54948142919ec3e91a87d72d51/)）--在线文档
+			- 会议记录（[模板地址](https://tower.im/projects/5a7ff5e37e6c4afd98249ca64cba307b/docs/4b7f3f93087c46c788b2a8a42283af92/)）-在线文档
+        - 产品经理
+	        - 需求文档（管理原型文件、逻辑效果图）--文件夹
+	        - PRD（在线原型地址、重要逻辑说明）--在线文档
+	   - 设计师
+		   -   设计图（效果图及源文件）--文件夹
+           -   设计规范--在线文档
+       - 开发工程师
+	       - 开发文档（建模文件、开发逻辑说明、字段说明、架构图）--文件夹
+	       - 接口文档（记录showdoc的地址）--在线文档 
+       - 测试工程师
+	       - 测试用例（管理测试用例）--文件夹
+	       - 测试报告--在线文档
+2. 相关人员账号注册及分配
+	- 引导相关人员注册Tower账号、并且加入项目组
+	- 新建showdoc项目（管理员账号：duskdawn、792825huang）、引导相关人员（开发、测试、项目经理、）注册showdoc账号，并且拉入项目组
+	-  新建svn项目、并给相关人员分配账号
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3.  项目联系群建立
+	- 微信群（日常沟通事项）
+	- qq群（主要用来开会）
 
-```markdown
-Syntax highlighted code block
+--- 
+###3. 项目实施
+![实施流程]
 
-# Header 1
-## Header 2
-### Header 3
+1. 项目管理
+ - 项目启动会
+	 - 项目整体计划介绍
+	 - 人员介绍及职责明确
+	 - 平台流程及制度介绍
+	 - 答疑及交流环节
+	 - 团队鼓励、鼓舞士气
+ -  项目计划实时调整
+ -  例会召开
+	 -  上次例会到本次例会期间任务完成情况
+	 -  本次例会到下次例会工作及任务安排
+	 -  沟通及待讨论事项确认
+	 -  其他需要协调和处理的问题
+  - 会议记录产出
+  - 项目周报产出
+1. 产品设计
+- 原型及PRD编写
+- 内部审核
+- 修改完善
+- 客户沟通确认
+- 产品定稿
+      
+             做好版本管理、tower每日更新、客户反馈及时记录与跟踪、注意沟通技巧
+2. UI/UE设计
+ - 两到三页设计稿
+ - 沟通及确认设计风格及VI
+ - 客户确认
+ - 剩余页面产出及确认
+ - 设计图定稿
+	 
+	           加入比稿机制、根据具体项目要求而定
 
-- Bulleted
-- List
+3. 数据建模
+	- 后端设计
+	- 产品确认
+4. 接口文档
+    - 后端编写
+    - 前端确认
+    - 修改完善
+5. 测试用例编写
+	- 测试工程师编写
+	- 产品经理确认
+6. 界面搭建
+	- 前端开发
+	- 设计师配合切图
+7. 逻辑开发及接口封装
+	- 后端开发
+8. 接口联调
+	- 前端接入逻辑及数据
+	- 后端配合调试
+9. 产品测试及bug修改
+	- 测试用例执行
+	- bug提交
+	- bug修改
+	- 回归测试
+	- 测试报告编写
+10. 项目资料整理
+	- 相关文件收集归档
+	- 培训资料编写
+	- 代码整理
+11. 项目验收
+   - 必要的培训
+   - 客户验收
+   - 问题反馈
+   - 问题处理
+12. 项目交付
+    - 项目总结
+    - 项目归档
 
-1. Numbered
-2. List
+###4.角色职责及工作
+### 1. 项目经理
+	- 根据初步的需求文档和BD沟通意见给出初步的项目计划
+	- 后续根据产品经理产出的PRD及原型做出及时的调整
+	- 人员管理及进度把控：任务分配、任务完成情况检查、工作协调、各类问题解决
+	- 维护各类项目文档及资料，提醒相关人员及时更新
+	- 每周两次例会及临时会议召开、组织相关人员参会。
+	- 会议记录及周报整理
+	- 产品上线审核
+	- 项目资料整理归档
+             
+             产出：
+             - 项目实施计划（甘特图）
+             - 项目会议记录
+             - 项目周报
+             版本管理
+             - tower-文件-项目管理
+             - tower-文档-项目周报
+             - tower-文档-会议内容
+                          
+### 2. 产品经理
+    1. 理解客户需求，第一版原型。
+    2. 客户确认，提出修改意见。
+    3. 第二版原型，确认。（视具体情况，可以多次确认，原则上项目设计框架和产品主体功能不改变，后续细节和小功能可添加修改）
+    4. 测试用例审核
+    5. 产品最终上线确认
+         
+             产出：
+             - 原型（跳转及交互）
+             - 逻辑效果图（基于原型）
+             - 逻辑效果图（基于设计图）
+             - PRD文档（字段级别说明，必要的逻辑说明）
+             版本管理：
+             - tower-文档-PRD
+             - tower-文件-需求文档
+             
+### 3. 设计师
 
-**Bold** and _Italic_ and `Code` text
+    1. 熟悉原型及PRD 	
+    2. 设计图出2-5页风格页（根据具体要求出一到两版）
+    3. 客户确认风格及vi
+    4. 设计图制作，客户确认
+    5. 标注及配合开发切图
+	
+	         产出
+	         - 设计图原始稿（PSD、sketch、ai等）
+	         - 设计图导出图（JPG）
+             版本管理
+             - tower-文档-设计规范
+             - tower-文件-设计图
+             
+### 4. 架构师（视项目复杂度和具体要求，此角色选配）
+    1. 熟悉原型及PRD
+    2. 根据项目具体情况选择合适的技术栈（开发语言、数据库类型等）
+    3. 与开发工程师讨论选择合适的技术框架（前端框架、后端框架、缓存技术、接口协议等）
+    4. 根据项目具体情况设计合理的服务器架构（基于阿里云）
+    5. 代码走查及规范要求（视具体项目而定）
+   
+             产出
+		      - 技术架构图
+		      - 服务器架构图
+		      - 代码走查报告（每周）
+		     版本管理
+		      - tower-文件-架构设计
+		      - tower-文档-代码规范
 
-[Link](url) and ![Image](src)
-```
+### 5. 开发工程师  
+     1. 熟悉PRD及原型图、逻辑效果图
+     2. 必要的技术调研、第三方服务、sdk等熟悉
+     3. 数据建模、数据库设计、接口设计、数据维护
+     4. 开发框架搭建
+     5. 逻辑开发、界面搭建
+     6. 接口封装、接口数据及逻辑接入
+     7. 接口联调
+     8. 内部自测
+      
+            产出
+	        - 数据库建表语句
+	        - 数据模型文档（pdm等）
+	        - 接口文档
+	        - 开发文档（必要的逻辑实现说明、规范说明、供协作使用）
+	        - 代码及注释
+	        版本管理
+	        - tower-文档-接口文档
+	        - tower-文件-开发文档
+	        - svn、gitlab（待搭建）
+	      
+### 6. 测试工程师
+    1. 熟悉PRD及原型图、逻辑效果图
+    2. 编写及完善测试用例
+    3. 相关测试工作实行（功能测试、压力测试、兼容性测试、性能测试等）
+    4. bug提交（tower任务）
+    5. 回归测试
+    6. 测试报告
+    7. 上线确认（数据清理、初始化）
+     
+            产出
+            - 测试用例
+            - 测试报告
+            版本管理
+            - tower-文件-开发文档
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 7、运维工程师（基于阿里云）
+    1. 服务器配置、帐号管理等
+    2. 根据项目具体情况对服务器架构进行调整、增加机器、购买增值服务
+    2. 服务器日常维护
+    3. 异常及攻击处理
+   
+           产出
+           - 运维报告（每周）
+           版本管理
+           - tower-文档-运维文档
+           
+---
 
-### Jekyll Themes
+###5.相关制度（持续完善）
+1. 每周三及周日晚两次例会（全员参加），有事提前请假并将相关工作完成情况汇报给项目经理。
+2. Tower任务每日更新状态、延期任务下方回复说明情况并重新设定完成时间。
+3. 开发过程中的问题及时在微信群沟通处理，讨论结果及相关产出资料在tower留存，不要等到例会再解决。
+4. 代码至少每两天提交一次svn。
+5. 各人员相关产出文件做好版本管理，及时更新到tower。
+6. 项目群里消息及时回复，如不能支撑，请固定时间点统一处理回复。
+7. 项目bonus与工作配合度、日常任务完成情况及项目上线时间挂钩。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duskdawn/jerry-s-repositories/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ 
